@@ -9,7 +9,7 @@ let userMessage = null;
 let isResponseGenerating = false;
 
 const API_KEY = "AIzaSyDWyIeYPdiUzY649_QsdaNLjWk3IEXGmRk";
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
+const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${API_KEY}`;
 
 const loadDataFromLocalstorage = () => {
   const savedChats = localStorage.getItem("saved-chats");
